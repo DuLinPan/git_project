@@ -1,9 +1,14 @@
 这是项目的第一段代码
 
 
-def foo():
-    for i in range(100):
-        print(i)
-    yied 100
+def fun():
+
+	def foo():
+	    for i in range(100):
+		print(i)
+	    yied 100
+
+        return foo
+
 
 foo()
