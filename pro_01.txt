@@ -7,3 +7,5 @@ def foo():
 
 
 foo()
+
+num 4 = 40
