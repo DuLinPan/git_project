@@ -1,7 +1,10 @@
 这是项目的第一段代码
+def fo(fn):
+  print("这是一个大帽子")
 
 
-def fun():
+  def fun():
+          fn()
 
 	def foo():
 	    for i in range(100):
@@ -9,6 +12,6 @@ def fun():
 	    yied 100
 
         return foo
+  
 
-
-foo()
+fo()
