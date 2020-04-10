@@ -4,6 +4,6 @@
 def foo():
     for i in range(100):
         print(i)
-
+    yied 100
 
 foo()
